@@ -1,0 +1,65 @@
+.class {
+  object-fit: cover;
+}
+
+img {
+  border-width: 5px;
+  border-style: inset;
+  border-color:  #0066cc;
+
+  object-fit: cover;
+  margin: 50px;
+  padding: 5px;
+  width: 220px;
+  height: 300px;
+}
+
+.topnav {
+  background-color: #0066cc;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.topnav a {
+  float: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #0080ff;
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  background-color: #cccccc;
+}
+
+<style>
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+<div class="zoom"></div>
